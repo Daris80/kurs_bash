@@ -25,7 +25,6 @@ for i in {0..20}; do
 done
 
 for element in $( ls $1 ); do
-    
     if [ "$element" = "home" ]; then
         break;
     if
@@ -35,5 +34,4 @@ for element in $( ls $1 ); do
     fi
 
     echo $element
-    
 done
